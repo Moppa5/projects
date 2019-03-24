@@ -5,7 +5,7 @@
         function sql_conn($db,$query) {
 
                 if (empty($db) or empty($query)) {
-                        echo "Ei voitu yhdistää";
+                        echo "Database or query is empty";
                         die();
                 } else { // Conn try
                         // Requires login data
